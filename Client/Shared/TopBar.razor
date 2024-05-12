@@ -1,0 +1,24 @@
+@inject NavigationManager Navigation
+
+<div class="top-bar">
+    <button class="top-bar-button" @onclick="IrACategorias">Categorías</button>
+    <button class="top-bar-button" @onclick="MostrarSugerencias">Sugerencias</button>
+    <button class="top-bar-button" @onclick="MostrarAyuda">Ayuda</button>
+</div>
+
+@code {
+    private void IrACategorias()
+    {
+        Navigation.NavigateTo("categorias");
+    }
+
+    private void MostrarSugerencias()
+    {
+        Navigation.NavigateTo("sugerencias");
+    }
+
+    private void MostrarAyuda()
+    {
+        Navigation.NavigateTo("ayuda");
+    }
+}

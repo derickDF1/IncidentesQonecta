@@ -1,0 +1,23 @@
+﻿.top-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.4rem;
+    background-color: #343F4B;
+    color: white;
+}
+
+.top-bar-button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+    .top-bar-button:hover {
+        background-color: white;
+        color: #343F4B;
+    }
